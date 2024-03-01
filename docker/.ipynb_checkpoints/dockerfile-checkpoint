@@ -1,0 +1,18 @@
+# 基础镜像
+FROM ubuntu:20.04
+
+# 更换 apt 源
+RUN sed -i 's/http:\/\/archive.ubuntu.com/http:\/\/mirrors.tuna.tsinghua.edu.cn\/ubuntu/g' /etc/apt/sources.list
+	
+# 更新源
+RUN apt-get update && apt-get install -y unzip curl python3-pip
+
+# 工作目录
+WORKDIR /app
+
+# 更新pip,安装第三方包
+COPY ./requirements.txt /app
+RUN pip install --upgrade pip && pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && pip install -r /app/requirements.txt
+
+# 环境变量
+ENV PYTHONPATH="${PYTHONPATH}:/app"
