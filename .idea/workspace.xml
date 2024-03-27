@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="栈和队列">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/hashing/hash_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/hashing/simple_hash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/modules/print_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/modules/tree_node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/binary_tree.py" afterDir="false" />
+    <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/modules/print_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/modules/print_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.binary_tree" />
         <item itemvalue="Python.tree_node" />
         <item itemvalue="Python.simple_hash" />
         <item itemvalue="Python.hash_map" />
         <item itemvalue="Python.deque" />
-        <item itemvalue="Python.binary_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +232,7 @@
       <workItem from="1711433245364" duration="5779000" />
       <workItem from="1711523302227" duration="403000" />
       <workItem from="1711523761094" duration="113000" />
-      <workItem from="1711523888006" duration="767000" />
+      <workItem from="1711523888006" duration="2474000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -274,7 +269,49 @@
       <option name="project" value="LOCAL" />
       <updated>1710493531682</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="简单哈希">
+      <created>1711524917867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711524917867</updated>
+    </task>
+    <task id="LOCAL-00007" summary="哈希表">
+      <created>1711524956453</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711524956453</updated>
+    </task>
+    <task id="LOCAL-00008" summary="二叉树节点">
+      <created>1711524992073</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711524992073</updated>
+    </task>
+    <task id="LOCAL-00009" summary="二叉树">
+      <created>1711525026425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711525026425</updated>
+    </task>
+    <task id="LOCAL-00010" summary="打印输出结果">
+      <created>1711525073214</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711525073214</updated>
+    </task>
+    <task id="LOCAL-00011" summary="others">
+      <created>1711525100019</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711525100019</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,13 +333,19 @@
     <MESSAGE value="docker 基础环境" />
     <MESSAGE value="数组和链表" />
     <MESSAGE value="栈和队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈和队列" />
+    <MESSAGE value="简单哈希" />
+    <MESSAGE value="哈希表" />
+    <MESSAGE value="二叉树节点" />
+    <MESSAGE value="二叉树" />
+    <MESSAGE value="打印输出结果" />
+    <MESSAGE value="others" />
+    <option name="LAST_COMMIT_MESSAGE" value="others" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/structure_and_algorithm$tree_node.coverage" NAME="tree_node Coverage Results" MODIFIED="1711438106982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/modules" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$array.coverage" NAME="array Coverage Results" MODIFIED="1709309150141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$simple_hash.coverage" NAME="simple_hash Coverage Results" MODIFIED="1710749840182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/hashing" />
-    <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1711444108986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/tree" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1711525127327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/tree" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$array__1_.coverage" NAME="array (1) Coverage Results" MODIFIED="1710232180634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/array_and_linklist" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$stack.coverage" NAME="stack Coverage Results" MODIFIED="1710491973753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/stack_and_queue" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$queue.coverage" NAME="queue Coverage Results" MODIFIED="1710492651602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/stack_and_queue" />

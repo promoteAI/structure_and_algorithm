@@ -1,5 +1,6 @@
 from .tree_node import TreeNode
 
+
 class Trunk:
     def __init__(self, prev, string: str):
         self.prev = prev
@@ -14,7 +15,15 @@ def show_trunks(p: Trunk or None = None):
 
 
 def print_tree(root: TreeNode, prev: Trunk or None = None, is_right: bool = False):
-    """打印二叉树"""
+    """
+    从右到左打印二叉树
+    例如:
+         /—— 3
+     —— 1
+       |    /—— 5
+         \—— 2
+             \—— 4
+    """
     if root is None:
         return
     prev_str = "    "
