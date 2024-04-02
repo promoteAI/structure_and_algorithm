@@ -8,6 +8,8 @@ from .list_node import (
 )
 from .tree_node import (
     TreeNode,
+    list_to_tree,
+    tree_to_list,
 )
 from .print_utils import (
     print_tree,
