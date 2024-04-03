@@ -1,5 +1,5 @@
 """
-堆
+python内置堆
 File: heap.py
 Author: Hanjiang Chen
 email:chen_han_jiang@163.com
@@ -10,7 +10,6 @@ from pathlib import Path
 from typing import List
 
 sys.path.append(str(Path(__file__).parent.parent))
-from modules import TreeNode, print_tree, list_to_tree, tree_to_list
 
 if __name__ == '__main__':
     # 初始化小顶堆

@@ -1,4 +1,5 @@
-from .tree_node import TreeNode
+from .tree_node import TreeNode,list_to_tree
+from typing import List
 
 
 class Trunk:
@@ -44,3 +45,11 @@ def print_tree(root: TreeNode, prev: Trunk or None = None, is_right: bool = Fals
         prev.string = prev_str
     trunk.string = "  |"
     print_tree(root.left, trunk, False)
+
+
+def print_heap(heap: List[int]):
+    """打印堆"""
+    print("堆的数组表示：", heap)
+    print("堆的树状表示：")
+    root: TreeNode or None = list_to_tree(heap)
+    print_tree(root)
