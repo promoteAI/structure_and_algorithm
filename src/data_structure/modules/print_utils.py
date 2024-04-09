@@ -1,5 +1,13 @@
-from .tree_node import TreeNode,list_to_tree
+from .tree_node import TreeNode, list_to_tree
 from typing import List
+
+
+def print_matrix(matrix: List[List[int]]):
+    """打印矩阵"""
+    res = []
+    for arr in matrix:
+        res.append("    "+str(arr))
+    print("[\n" + ",\n".join(res) + "\n]")
 
 
 class Trunk:

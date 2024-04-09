@@ -14,4 +14,5 @@ from .tree_node import (
 from .print_utils import (
     print_tree,
     print_heap,
+    print_matrix,
 )

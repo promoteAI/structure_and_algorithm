@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="9f2ad192fbb1376a10ac19168df422fb13efa8feaf0fd78b" />
+          <option name="urlString" value="http://172.17.194.90:8888/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="9f2ad192fbb1376a10ac19168df422fb13efa8feaf0fd78b" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="0b69984dac727436d98b14b8901069608dfdb387c50e371f" />
+          <option name="urlString" value="http://localhost:8888" />
+          <authParams2>
+            <map>
+              <entry key="token" value="0b69984dac727436d98b14b8901069608dfdb387c50e371f" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
+    <option name="moduleParameters">
+      <map>
+        <entry key="$USER_HOME$/Desktop/AIGC/.idea/AIGC.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="port" value="8888" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/PointAI/.idea/PointAI.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="9f2ad192fbb1376a10ac19168df422fb13efa8feaf0fd78b" />
+              <option name="urlString" value="http://172.17.194.90:8888/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="9f2ad192fbb1376a10ac19168df422fb13efa8feaf0fd78b" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dl_projects/.idea/dl_projects.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkHomePath" value="D:\Users\cheris\Miniconda3\python.exe" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dl_projects/AIGC/paper/.idea/paper.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="0b69984dac727436d98b14b8901069608dfdb387c50e371f" />
+              <option name="urlString" value="http://localhost:8888" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="0b69984dac727436d98b14b8901069608dfdb387c50e371f" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
