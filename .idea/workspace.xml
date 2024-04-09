@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 图结构">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接矩阵-删除边.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接矩阵-删除顶点.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接矩阵-添加边.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接矩阵-添加顶点.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接表-删除边.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接表-删除顶点.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接表-添加边.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接表-添加顶点.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/modules/vertex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/modules/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.binary_tree.executor": "Run",
+    "Python.graph_adjacency_list.executor": "Run",
     "Python.graph_adjacency_matrix.executor": "Run",
     "Python.hash_map.executor": "Run",
     "Python.print_utils.executor": "Run",
@@ -105,8 +107,8 @@
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\array_and_linklist" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.graph_adjacency_matrix">
-    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.graph_adjacency_list">
+    <configuration name="graph_adjacency_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,12 +117,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_structure/tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_structure/graph" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure/tree/binary_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.graph_adjacency_list" />
         <item itemvalue="Python.graph_adjacency_matrix" />
         <item itemvalue="Python.simple_hash" />
         <item itemvalue="Python.print_utils" />
         <item itemvalue="Python.hash_map" />
-        <item itemvalue="Python.binary_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +303,7 @@
       <workItem from="1712143667016" duration="2001000" />
       <workItem from="1712145695821" duration="955000" />
       <workItem from="1712454229904" duration="3415000" />
-      <workItem from="1712628490495" duration="6343000" />
+      <workItem from="1712628490495" duration="12374000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -431,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712639934159</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="python 图结构">
+      <option name="closed" value="true" />
+      <created>1712642738499</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712642738499</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,14 +477,15 @@
     <MESSAGE value="python 从零用数组实现堆" />
     <MESSAGE value="python 使用堆解决top-K的问题" />
     <MESSAGE value="python 图结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="python 图结构" />
+    <MESSAGE value="Generating..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Generating..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/structure_and_algorithm$heap.coverage" NAME="heap Coverage Results" MODIFIED="1712111308518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/heap" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$_1___1_.coverage" NAME="[1]两数之和 (1) Coverage Results" MODIFIED="1710481549736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcode/temp/leetcode/editor/cn" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$top_K.coverage" NAME="top-K Coverage Results" MODIFIED="1712127535591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/heap" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$print_utils.coverage" NAME="print_utils Coverage Results" MODIFIED="1712455508249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/modules" />
-    <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_adjacency_matrix.coverage" NAME="graph_adjacency_matrix Coverage Results" MODIFIED="1712633594953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_adjacency_matrix.coverage" NAME="graph_adjacency_matrix Coverage Results" MODIFIED="1712642706681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$queue.coverage" NAME="queue Coverage Results" MODIFIED="1710492651602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/stack_and_queue" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$list.coverage" NAME="list Coverage Results" MODIFIED="1710481044386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/array_and_linklist" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$my_list.coverage" NAME="my_list Coverage Results" MODIFIED="1710482270212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/array_and_linklist" />
@@ -489,6 +500,7 @@
     <SUITE FILE_PATH="coverage/structure_and_algorithm$_1_.coverage" NAME="[1]两数之和 Coverage Results" MODIFIED="1710481021146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$deque.coverage" NAME="deque Coverage Results" MODIFIED="1710493474648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/stack_and_queue" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$stack.coverage" NAME="stack Coverage Results" MODIFIED="1710491973753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/stack_and_queue" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_adjacency_list.coverage" NAME="graph_adjacency_list Coverage Results" MODIFIED="1712648335376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$array__1_.coverage" NAME="array (1) Coverage Results" MODIFIED="1710232180634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/array_and_linklist" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$link_list.coverage" NAME="link_list Coverage Results" MODIFIED="1710229223787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/array_and_linklist" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$tree_node.coverage" NAME="tree_node Coverage Results" MODIFIED="1712047691761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/modules" />
