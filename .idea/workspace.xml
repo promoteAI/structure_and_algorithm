@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 图结构">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接矩阵-删除边.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接矩阵-删除顶点.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接矩阵-添加边.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/imgs/邻接矩阵-添加顶点.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/graph/graph_adjacency_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/modules/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/modules/print_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/modules/print_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/projects/structure_and_algorithm/src/data_structure/tree",
+    "last_opened_file_path": "E:/projects/structure_and_algorithm/src/data_structure/graph",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +96,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\structure_and_algorithm\src\data_structure\graph" />
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\tree" />
       <recent name="E:\projects\structure_and_algorithm\src" />
     </key>
@@ -297,7 +301,7 @@
       <workItem from="1712143667016" duration="2001000" />
       <workItem from="1712145695821" duration="955000" />
       <workItem from="1712454229904" duration="3415000" />
-      <workItem from="1712628490495" duration="5157000" />
+      <workItem from="1712628490495" duration="6343000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -419,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712143751407</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="python 图结构">
+      <option name="closed" value="true" />
+      <created>1712639934159</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712639934159</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

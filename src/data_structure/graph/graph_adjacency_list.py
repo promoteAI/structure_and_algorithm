@@ -1,6 +1,6 @@
 """
-基于邻接矩阵的无向图
-File: graph_adjacency_matrix.py
+基于邻接表的无向图
+File: graph_adjacency_list.py
 Author: Hanjiang Chen
 email:chen_han_jiang@163.com
 """
@@ -13,9 +13,8 @@ sys.path.append(str(Path(__file__).parent.parent))
 from modules import print_matrix
 
 
-class GraphAdjMatrix:
-    """基于邻接矩阵的无向图"""
-
+class GraphAdjList:
+    """基于邻接表的无向图"""
     def __init__(self, vertices: List[int], edges: List[List[int]]):
         """构造方法"""
         # 顶点列表，元素代表“顶点值”，索引代表“顶点索引”
@@ -65,13 +64,10 @@ class GraphAdjMatrix:
         """删除顶点"""
         if i < 0 or i >= self.size():
             raise IndexError()
-        # 删除索引的顶点
-        self.vertices.pop(i)
-        # 删除索引为i的行
-        self.adj_matrix.pop(i)
-        # 删除索引为i的列
-        for row in self.adj_matrix:
-            row.pop(i)
+        # 将顶点索引 i 对应的行和列置为0
+        for j in range(self.size()):
+            self.adj_matrix[i][j] = 0
+            self.adj_matrix[j][i] = 0
 
     def size(self):
         return len(self.adj_matrix)
@@ -95,7 +91,7 @@ if __name__ == '__main__':
     graph.print()
 
     # 删除顶点
-    graph.remove_vertex(3)
+    graph.remove_vertex(4)
     graph.print()
 
     # 添加顶点
@@ -103,5 +99,5 @@ if __name__ == '__main__':
     graph.print()
 
     # 添加边
-    graph.add_edge(3, 4)
+    graph.add_edge(3, 5)
     graph.print()
