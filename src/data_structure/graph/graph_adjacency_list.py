@@ -6,98 +6,105 @@ email:chen_han_jiang@163.com
 """
 import sys
 from pathlib import Path
-from typing import List
+from typing import List, Dict
 
 sys.path.append(str(Path(__file__).parent.parent))
 
-from modules import print_matrix
+from modules import Vertex, list_to_vertex, vertex_to_list
 
 
 class GraphAdjList:
     """基于邻接表的无向图"""
-    def __init__(self, vertices: List[int], edges: List[List[int]]):
+
+    def __init__(self, edges: List[List[Vertex]]):
         """构造方法"""
-        # 顶点列表，元素代表“顶点值”，索引代表“顶点索引”
-        self.vertices = []
-        # 邻接矩阵，行列索引代表“顶点索引”
-        self.adj_matrix = []
-        # 添加顶点
-        for val in vertices:
-            self.add_vertex(val)
-        # 添加边
+        # 邻接表 key:顶点索引, value:该顶点的所有邻接顶点
+        self.adj_list: Dict[Vertex:List[Vertex]] = dict()
+        # 初始化邻接表
         for edge in edges:
+            self.add_vertex(edge[0])
+            self.add_vertex(edge[1])
             self.add_edge(edge[0], edge[1])
 
-    def add_vertex(self, val: int):
+    def add_vertex(self, vet: Vertex):
         """添加顶点"""
-        n = self.size()
-        # 向顶点列表中添加新顶点的值
-        self.vertices.append(val)
-        # 在邻接矩阵中添加一行
-        new_row = [0] * n
-        self.adj_matrix.append(new_row)
-        # 在邻接矩阵中添加一列
-        for row in self.adj_matrix:
-            row.append(0)
+        if vet in self.adj_list:
+            return
+        # 添加一个新的链表
+        self.adj_list[vet] = []
 
-    def add_edge(self, i: int, j: int):
+    def add_edge(self, vet1: Vertex, vet2: Vertex):
         """添加边"""
-        # 参数 i, j 对应 vertices 元素索引
-        # 索引越界与相等处理
-        if i < 0 or j < 0 or i >= self.size() or j >= self.size() or i == j:
-            raise IndexError()
-        # 在无向图中，邻接矩阵关于主对角线对称，即满足 (i, j) == (j, i)
-        self.adj_matrix[i][j] = 1
-        self.adj_matrix[j][i] = 1
+        # 判断
+        if vet1 not in self.adj_list or vet2 not in self.adj_list or vet1 == vet2:
+            raise ValueError("顶点不存在")
+        # 添加边 vet1-vet2
+        self.adj_list[vet1].append(vet2)
+        self.adj_list[vet2].append(vet1)
 
-    def remove_edge(self, i: int, j: int):
+    def remove_edge(self, vet1: Vertex, vet2: Vertex):
         """删除边"""
-        # 参数 i, j 对应 vertices 元素索引
-        # 索引越界与相等处理
-        if i < 0 or j < 0 or i >= self.size() or j >= self.size() or i == j:
-            raise IndexError()
-        # 将[i,j]和[j,i]处值置为0
-        self.adj_matrix[i][j] = 0
-        self.adj_matrix[j][i] = 0
+        # 判断
+        if vet1 not in self.adj_list or vet2 not in self.adj_list or vet1 == vet2:
+            raise ValueError()
+        # 删除边 vet1-vet2
+        self.adj_list[vet1].remove(vet2)
+        self.adj_list[vet2].remove(vet1)
 
-    def remove_vertex(self, i: int):
+    def remove_vertex(self, vet: Vertex):
         """删除顶点"""
-        if i < 0 or i >= self.size():
-            raise IndexError()
-        # 将顶点索引 i 对应的行和列置为0
-        for j in range(self.size()):
-            self.adj_matrix[i][j] = 0
-            self.adj_matrix[j][i] = 0
+        # 判断
+        if vet not in self.adj_list:
+            raise ValueError("顶点不存在")
+        # 删除顶点
+        self.adj_list.pop(vet)
+        # 删除所有与该顶点相关的边
+        for vertex in self.adj_list:
+            if vet in self.adj_list[vertex]:
+                self.adj_list[vertex].remove(vet)
 
     def size(self):
-        return len(self.adj_matrix)
+        return len(self.adj_list)
 
     def print(self):
-        """打印邻接矩阵"""
-        print("顶点列表 =", self.vertices)
-        print("邻接矩阵 =")
-        print_matrix(self.adj_matrix)
+        """打印邻接表"""
+        print("邻接表 =")
+        for vertex in self.adj_list:
+            tmp = [v.val for v in self.adj_list[vertex]]
+            print(f"{vertex.val} -> {tmp}")
 
 
 if __name__ == '__main__':
     # 初始化无向图
-    vertices = [1, 3, 2, 5, 4]
-    edges = [[0, 1], [0, 3], [1, 2], [2, 3], [2, 4], [3, 4]]
-    graph = GraphAdjMatrix(vertices, edges)
-    graph.print()
-
-    # 删除边
-    graph.remove_edge(0, 3)
-    graph.print()
-
-    # 删除顶点
-    graph.remove_vertex(4)
-    graph.print()
-
-    # 添加顶点
-    graph.add_vertex(6)
+    v = list_to_vertex([1, 3, 2, 5, 4])
+    print(v)
+    edges = [
+        [v[0], v[1]],
+        [v[0], v[3]],
+        [v[1], v[2]],
+        [v[2], v[3]],
+        [v[2], v[4]],
+        [v[3], v[4]]]
+    graph = GraphAdjList(edges)
+    print("\n初始化后的图:")
     graph.print()
 
     # 添加边
-    graph.add_edge(3, 5)
+    graph.add_edge(v[0], v[2])
+    print("\n添加边后的图:")
+    graph.print()
+
+    # 删除边
+    graph.remove_edge(v[0], v[2])
+    print("\n删除边后的图:")
+    graph.print()
+
+    # 添加顶点
+    graph.add_vertex(Vertex(6))
+    print("\n添加顶点后的图:")
+    graph.print()
+
+    # 删除顶点
+    graph.remove_vertex(v[1])
+    print("\n删除顶点后的图:")
     graph.print()

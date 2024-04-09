@@ -16,3 +16,9 @@ from .print_utils import (
     print_heap,
     print_matrix,
 )
+
+from .vertex import (
+    Vertex,
+    list_to_vertex,
+    vertex_to_list,
+)
