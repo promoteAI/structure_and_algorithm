@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 归并排序算法">
+    <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 回溯算法">
       <change afterPath="$PROJECT_DIR$/src/algorithm/back_tracking/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/algorithm/back_tracking/back_track.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/algorithm/dynamic_programming/__init__py.py" afterDir="false" />
@@ -312,7 +312,7 @@
       <workItem from="1712710702455" duration="531000" />
       <workItem from="1712715777500" duration="10710000" />
       <workItem from="1712796436519" duration="2869000" />
-      <workItem from="1712803857230" duration="17098000" />
+      <workItem from="1712803857230" duration="17731000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -546,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712822722088</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="python 回溯算法">
+      <option name="closed" value="true" />
+      <created>1712827645444</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712827645444</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +597,8 @@
     <MESSAGE value="python 插入排序算法" />
     <MESSAGE value="python 快速排序算法" />
     <MESSAGE value="python 归并排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="python 归并排序算法" />
+    <MESSAGE value="python 回溯算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="python 回溯算法" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_search_edge.coverage" NAME="binary_search_edge Coverage Results" MODIFIED="1712736922227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/search" />

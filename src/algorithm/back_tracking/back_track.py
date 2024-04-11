@@ -16,7 +16,7 @@ from typing import List
 from abc import abstractmethod
 
 
-class Back_track:
+class BackTrack:
     """继承此类,重写模版中方法"""
 
     def back_track(self, state, choices: List, res: List):
