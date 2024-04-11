@@ -19,6 +19,7 @@ from abc import abstractmethod
 class BackTrack:
     """继承此类,重写模版中方法"""
 
+    @abstractmethod
     def back_track(self, state, choices: List, res: List):
         """
         回溯算法框架
