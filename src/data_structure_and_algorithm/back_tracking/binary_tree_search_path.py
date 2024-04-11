@@ -7,7 +7,7 @@
 # @File     :binary_tree_search_path.py
 # @Software :PyCharm
 from back_track import BackTrack
-
+from modules import list_to_tree
 class BinaryTreeSearchPath(BackTrack):
     """
     在二叉树中搜索所有值为7的节点，请返回根节点到这些节点的路径，并要求路径中不包含值为3的节点。
