@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 算法">
+    <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 回溯算法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure_and_algorithm/back_tracking/back_track.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/back_tracking/back_track.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure_and_algorithm/back_tracking/binary_tree_search_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/back_tracking/binary_tree_search_path.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +313,7 @@
       <workItem from="1712715777500" duration="10710000" />
       <workItem from="1712796436519" duration="2869000" />
       <workItem from="1712803857230" duration="20310000" />
-      <workItem from="1712844293311" duration="749000" />
+      <workItem from="1712844293311" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -581,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712829508407</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="python 回溯算法">
+      <option name="closed" value="true" />
+      <created>1712846960854</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1712846960854</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,13 +630,13 @@
     <MESSAGE value="python 插入排序算法" />
     <MESSAGE value="python 快速排序算法" />
     <MESSAGE value="python 归并排序算法" />
-    <MESSAGE value="python 回溯算法" />
     <MESSAGE value="python 算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="python 算法" />
+    <MESSAGE value="python 回溯算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="python 回溯算法" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_search_edge.coverage" NAME="binary_search_edge Coverage Results" MODIFIED="1712736922227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/search" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$top_K.coverage" NAME="top-K Coverage Results" MODIFIED="1712127535591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/heap" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_search_edge.coverage" NAME="binary_search_edge Coverage Results" MODIFIED="1712736922227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/search" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$selection_sort.coverage" NAME="selection_sort Coverage Results" MODIFIED="1712805289065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_adjacency_matrix.coverage" NAME="graph_adjacency_matrix Coverage Results" MODIFIED="1712642706681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$bubble_sort.coverage" NAME="bubble_sort Coverage Results" MODIFIED="1712810813026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
@@ -651,7 +657,7 @@
     <SUITE FILE_PATH="coverage/structure_and_algorithm$queue.coverage" NAME="queue Coverage Results" MODIFIED="1710492651602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/stack_and_queue" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$list.coverage" NAME="list Coverage Results" MODIFIED="1710481044386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/array_and_linklist" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_tree_search_path.coverage" NAME="binary_tree_search_path Coverage Results" MODIFIED="1712829040984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/back_tracking" />
-    <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_tree_search_path__1_.coverage" NAME="binary_tree_search_path (1) Coverage Results" MODIFIED="1712830234029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/back_tracking" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_tree_search_path__1_.coverage" NAME="binary_tree_search_path (1) Coverage Results" MODIFIED="1712846884538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/back_tracking" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$my_list.coverage" NAME="my_list Coverage Results" MODIFIED="1710482270212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/array_and_linklist" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$array.coverage" NAME="array Coverage Results" MODIFIED="1709309150141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_bfs.coverage" NAME="graph_bfs Coverage Results" MODIFIED="1712656986609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
