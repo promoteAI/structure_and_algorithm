@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 回溯算法">
+      <change afterPath="$PROJECT_DIR$/src/interview/count_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/filename.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jupyter-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/structure_and_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/structure_and_algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +81,7 @@
     &quot;Python.binary_tree_search_path (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.binary_tree_search_path.executor&quot;: &quot;Run&quot;,
     &quot;Python.bubble_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_line.executor&quot;: &quot;Run&quot;,
     &quot;Python.graph_adjacency_list.executor&quot;: &quot;Run&quot;,
     &quot;Python.graph_adjacency_matrix.executor&quot;: &quot;Run&quot;,
     &quot;Python.graph_bfs.executor&quot;: &quot;Run&quot;,
@@ -87,11 +93,12 @@
     &quot;Python.quick_sort.executor&quot;: &quot;Run&quot;,
     &quot;Python.selection_sort.executor&quot;: &quot;Run&quot;,
     &quot;Python.simple_hash.executor&quot;: &quot;Run&quot;,
+    &quot;Python.top-K.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/projects/structure_and_algorithm/src/data_structure/graph&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/projects/structure_and_algorithm/src/interview&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,6 +110,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\structure_and_algorithm\src\interview" />
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\graph" />
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\tree" />
       <recent name="E:\projects\structure_and_algorithm\src" />
@@ -113,7 +121,7 @@
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\array_and_linklist" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.binary_tree_search_path (1)">
+  <component name="RunManager" selected="Python.topK">
     <configuration name="binary_tree_search_path (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
@@ -160,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="insert_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="count_line" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,12 +177,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm/sort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/interview" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/algorithm/sort/insert_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/interview/count_line.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="top-K" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,12 +200,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm/sort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_structure_and_algorithm/heap" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/algorithm/sort/merge_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure_and_algorithm/heap/top-K.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="topK" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,12 +223,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm/sort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcode/python_code" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/algorithm/sort/quick_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcode/python_code/topK.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.topK" />
+        <item itemvalue="Python.top-K" />
+        <item itemvalue="Python.count_line" />
         <item itemvalue="Python.binary_tree_search_path (1)" />
         <item itemvalue="Python.binary_tree_search_path" />
-        <item itemvalue="Python.merge_sort" />
-        <item itemvalue="Python.quick_sort" />
-        <item itemvalue="Python.insert_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +322,14 @@
       <workItem from="1712796436519" duration="2869000" />
       <workItem from="1712803857230" duration="20310000" />
       <workItem from="1712844293311" duration="3188000" />
+      <workItem from="1712883215439" duration="3468000" />
+      <workItem from="1713237707742" duration="17000" />
+      <workItem from="1713347906106" duration="282000" />
+      <workItem from="1713348211446" duration="135000" />
+      <workItem from="1713358952527" duration="23000" />
+      <workItem from="1714033397203" duration="108000" />
+      <workItem from="1714034331626" duration="888000" />
+      <workItem from="1714035996301" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -587,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712846960854</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="python 回溯算法">
+      <option name="closed" value="true" />
+      <created>1712883395818</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1712883395818</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,8 +659,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="python 回溯算法" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/structure_and_algorithm$top_K.coverage" NAME="top-K Coverage Results" MODIFIED="1712127535591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/heap" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_search_edge.coverage" NAME="binary_search_edge Coverage Results" MODIFIED="1712736922227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/search" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$top_K.coverage" NAME="top-K Coverage Results" MODIFIED="1714033459225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/heap" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$selection_sort.coverage" NAME="selection_sort Coverage Results" MODIFIED="1712805289065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_adjacency_matrix.coverage" NAME="graph_adjacency_matrix Coverage Results" MODIFIED="1712642706681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$bubble_sort.coverage" NAME="bubble_sort Coverage Results" MODIFIED="1712810813026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
@@ -662,6 +686,7 @@
     <SUITE FILE_PATH="coverage/structure_and_algorithm$array.coverage" NAME="array Coverage Results" MODIFIED="1709309150141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_bfs.coverage" NAME="graph_bfs Coverage Results" MODIFIED="1712656986609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1712822429941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$count_line.coverage" NAME="count_line Coverage Results" MODIFIED="1713348280848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/interview" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_tree_dfs.coverage" NAME="binary_tree_dfs Coverage Results" MODIFIED="1712049144146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/tree" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$my_heap.coverage" NAME="my_heap Coverage Results" MODIFIED="1712125788619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/heap" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$list_node.coverage" NAME="list_node Coverage Results" MODIFIED="1709310212433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/modules" />
