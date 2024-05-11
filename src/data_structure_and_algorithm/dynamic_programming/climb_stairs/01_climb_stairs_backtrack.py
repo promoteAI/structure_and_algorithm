@@ -38,8 +38,6 @@ class Solution:
         return res[0]
 
 
-
-
 if __name__ == '__main__':
     # 法一:回溯法
     n = 3
