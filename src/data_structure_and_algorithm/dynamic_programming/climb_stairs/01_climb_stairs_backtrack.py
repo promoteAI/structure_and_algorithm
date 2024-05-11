@@ -39,7 +39,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    # 法一:回溯法
+    # 法一:回溯法:看做多轮选择过程
     n = 3
     res = Solution().climbStairs(n)
     print(f"爬{n}阶楼梯总的方案数量:{res}")

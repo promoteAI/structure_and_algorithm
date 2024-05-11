@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 刷题">
-      <change afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/01_climb_stairs.py" afterDir="false" />
+    <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 回溯法解爬楼梯问题">
+      <change afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/02_climb_stairs_dfs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/01_climb_stairs_backtrack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/01_climb_stairs_backtrack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +118,14 @@
       <recent name="E:\projects\structure_and_algorithm\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\structure_and_algorithm\src\data_structure_and_algorithm\dynamic_programming\climb_stairs" />
       <recent name="E:\projects\structure_and_algorithm\src\data_structure" />
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\modules" />
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\array_and_linklist" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_climb_stairs">
-    <configuration name="01_climb_stairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.02_climb_stairs_dfs">
+    <configuration name="01_climb_stairs_backtrack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +139,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/01_climb_stairs.py" />
+      <option name="SCRIPT_NAME" value="E:\projects\structure_and_algorithm\src\data_structure_and_algorithm\dynamic_programming\climb_stairs\01_climb_stairs_backtrack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_climb_stairs_dfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="structure_and_algorithm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/02_climb_stairs_dfs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,29 +240,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="topK" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="structure_and_algorithm" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcode/python_code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcode/python_code/topK.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -255,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01_climb_stairs" />
+        <item itemvalue="Python.02_climb_stairs_dfs" />
+        <item itemvalue="Python.01_climb_stairs_backtrack" />
         <item itemvalue="Python.quick_sort" />
         <item itemvalue="Python.78.subsets" />
         <item itemvalue="Python.46.permute" />
-        <item itemvalue="Python.topK" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +336,7 @@
       <workItem from="1714036031894" duration="3175000" />
       <workItem from="1714097295749" duration="10603000" />
       <workItem from="1715436563137" duration="252000" />
-      <workItem from="1715436961444" duration="2411000" />
+      <workItem from="1715436961444" duration="3312000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -640,7 +642,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715437000667</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="python 回溯法解爬楼梯问题">
+      <option name="closed" value="true" />
+      <created>1715439808333</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1715439808333</updated>
+    </task>
+    <task id="LOCAL-00042" summary="python 回溯法解爬楼梯问题">
+      <option name="closed" value="true" />
+      <created>1715439882187</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1715439882187</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +679,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="docker 环境搭建模版" />
     <MESSAGE value="docker 基础环境" />
     <MESSAGE value="数组和链表" />
     <MESSAGE value="栈和队列" />
@@ -686,14 +703,15 @@
     <MESSAGE value="python 算法" />
     <MESSAGE value="python 回溯算法" />
     <MESSAGE value="python 刷题" />
-    <option name="LAST_COMMIT_MESSAGE" value="python 刷题" />
+    <MESSAGE value="python 回溯法解爬楼梯问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="python 回溯法解爬楼梯问题" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/structure_and_algorithm$top_K.coverage" NAME="top-K Coverage Results" MODIFIED="1714033459225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/heap" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_search_edge.coverage" NAME="binary_search_edge Coverage Results" MODIFIED="1712736922227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/search" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$selection_sort.coverage" NAME="selection_sort Coverage Results" MODIFIED="1712805289065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_adjacency_matrix.coverage" NAME="graph_adjacency_matrix Coverage Results" MODIFIED="1712642706681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
-    <SUITE FILE_PATH="coverage/structure_and_algorithm$01_climb_stairs.coverage" NAME="01_climb_stairs Coverage Results" MODIFIED="1715438540792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$01_climb_stairs.coverage" NAME="01_climb_stairs Coverage Results" MODIFIED="1715439668232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$bubble_sort.coverage" NAME="bubble_sort Coverage Results" MODIFIED="1712810813026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1712814014560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_dfs.coverage" NAME="graph_dfs Coverage Results" MODIFIED="1712710789524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
