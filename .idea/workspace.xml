@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 刷题">
+      <change afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/01_climb_stairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure_and_algorithm/sort/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/sort/quick_sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,45 +68,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.46.permute.executor&quot;: &quot;Run&quot;,
-    &quot;Python.78.subsets.executor&quot;: &quot;Profiler&quot;,
-    &quot;Python.binary_search.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary_search_edge.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary_search_insert.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary_tree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary_tree_search_path (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary_tree_search_path.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bubble_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.count_line.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graph_adjacency_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graph_adjacency_matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graph_bfs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graph_dfs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hash_map.executor&quot;: &quot;Run&quot;,
-    &quot;Python.insert_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.merge_sort.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.print_utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quick_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selection_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple_hash.executor&quot;: &quot;Run&quot;,
-    &quot;Python.top-K.executor&quot;: &quot;Run&quot;,
-    &quot;Python.topK.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/projects/structure_and_algorithm/src/leetcode/python_code&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_climb_stairs.executor": "Run",
+    "Python.46.permute.executor": "Run",
+    "Python.78.subsets.executor": "Profiler",
+    "Python.binary_search.executor": "Run",
+    "Python.binary_search_edge.executor": "Run",
+    "Python.binary_search_insert.executor": "Run",
+    "Python.binary_tree.executor": "Run",
+    "Python.binary_tree_search_path (1).executor": "Run",
+    "Python.binary_tree_search_path.executor": "Run",
+    "Python.bubble_sort.executor": "Run",
+    "Python.count_line.executor": "Run",
+    "Python.graph_adjacency_list.executor": "Run",
+    "Python.graph_adjacency_matrix.executor": "Run",
+    "Python.graph_bfs.executor": "Run",
+    "Python.graph_dfs.executor": "Run",
+    "Python.hash_map.executor": "Run",
+    "Python.insert_sort.executor": "Run",
+    "Python.merge_sort.executor": "Debug",
+    "Python.print_utils.executor": "Run",
+    "Python.quick_sort.executor": "Run",
+    "Python.selection_sort.executor": "Run",
+    "Python.simple_hash.executor": "Run",
+    "Python.top-K.executor": "Run",
+    "Python.topK.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/projects/structure_and_algorithm/src/leetcode/python_code",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\projects\structure_and_algorithm\src\leetcode\python_code" />
@@ -121,7 +122,30 @@
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\array_and_linklist" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.quick_sort">
+  <component name="RunManager" selected="Python.01_climb_stairs">
+    <configuration name="01_climb_stairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="structure_and_algorithm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/01_climb_stairs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="46.permute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
@@ -191,29 +215,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="top-K" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="structure_and_algorithm" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_structure_and_algorithm/heap" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure_and_algorithm/heap/top-K.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="topK" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
@@ -254,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_climb_stairs" />
         <item itemvalue="Python.quick_sort" />
         <item itemvalue="Python.78.subsets" />
         <item itemvalue="Python.46.permute" />
         <item itemvalue="Python.topK" />
-        <item itemvalue="Python.top-K" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +334,7 @@
       <workItem from="1714036031894" duration="3175000" />
       <workItem from="1714097295749" duration="10603000" />
       <workItem from="1715436563137" duration="252000" />
+      <workItem from="1715436961444" duration="2411000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -630,7 +632,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714112938426</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="python 刷题">
+      <option name="closed" value="true" />
+      <created>1715437000667</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1715437000667</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -679,10 +689,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="python 刷题" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_search_edge.coverage" NAME="binary_search_edge Coverage Results" MODIFIED="1712736922227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/search" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$top_K.coverage" NAME="top-K Coverage Results" MODIFIED="1714033459225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/heap" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_search_edge.coverage" NAME="binary_search_edge Coverage Results" MODIFIED="1712736922227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/search" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$selection_sort.coverage" NAME="selection_sort Coverage Results" MODIFIED="1712805289065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_adjacency_matrix.coverage" NAME="graph_adjacency_matrix Coverage Results" MODIFIED="1712642706681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$01_climb_stairs.coverage" NAME="01_climb_stairs Coverage Results" MODIFIED="1715438540792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$bubble_sort.coverage" NAME="bubble_sort Coverage Results" MODIFIED="1712810813026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1712814014560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithm/sort" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$graph_dfs.coverage" NAME="graph_dfs Coverage Results" MODIFIED="1712710789524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/graph" />
