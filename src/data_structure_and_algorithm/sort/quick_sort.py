@@ -34,7 +34,7 @@ def partition(arr: List, l: int, r: int):
         # 从右到左找首个小于基准的元素
         while i < j and arr[j] >= arr[l]:
             j -= 1
-        # 从右到左找首个大于基准的元素
+        # 从左到右找首个大于基准的元素
         while i < j and arr[i] <= arr[l]:
             i += 1
         # 交换元素
