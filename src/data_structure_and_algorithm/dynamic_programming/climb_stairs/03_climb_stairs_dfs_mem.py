@@ -34,7 +34,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    # 法三:记忆化搜素,重复子问题只计算一次
+    # 法三:记忆化搜素,重复子问题只计算一次，记忆化搜索是一种“从顶至底”的方法
     n = 3
     res = Solution().climbStairs(n)
     print(f"爬{n}阶楼梯总的方案数量:{res}")

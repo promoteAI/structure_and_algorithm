@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b30e92-e3d4-4fa5-881c-9abc0acf9cbe" name="Changes" comment="python 动态规划">
-      <change afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/02_climb_stairs_dfs_mem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/04_climb_stairs_dp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/02_climb_stairs_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/02_climb_stairs_dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/02_climb_stairs_dfs_mem.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/03_climb_stairs_dfs_mem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,8 @@
   "keyToString": {
     "Python.01_climb_stairs.executor": "Run",
     "Python.02_climb_stairs_dfs.executor": "Run",
+    "Python.02_climb_stairs_dfs_mem.executor": "Run",
+    "Python.04_climb_stairs_dp.executor": "Run",
     "Python.46.permute.executor": "Run",
     "Python.78.subsets.executor": "Profiler",
     "Python.binary_search.executor": "Run",
@@ -125,7 +127,7 @@
       <recent name="E:\projects\structure_and_algorithm\src\data_structure\array_and_linklist" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02_climb_stairs_dfs_mem">
+  <component name="RunManager" selected="Python.04_climb_stairs_dp">
     <configuration name="01_climb_stairs_backtrack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
@@ -172,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_climb_stairs_dfs_mem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_climb_stairs_dfs_mem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,7 +188,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/02_climb_stairs_dfs_mem.py" />
+      <option name="SCRIPT_NAME" value="E:\projects\structure_and_algorithm\src\data_structure_and_algorithm\dynamic_programming\climb_stairs\03_climb_stairs_dfs_mem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="78.subsets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_climb_stairs_dp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="structure_and_algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,12 +206,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcode/python_code/hot100" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcode/python_code/hot100/78.subsets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs/04_climb_stairs_dp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.02_climb_stairs_dfs_mem" />
+        <item itemvalue="Python.04_climb_stairs_dp" />
+        <item itemvalue="Python.03_climb_stairs_dfs_mem" />
         <item itemvalue="Python.02_climb_stairs_dfs" />
         <item itemvalue="Python.01_climb_stairs_backtrack" />
         <item itemvalue="Python.quick_sort" />
-        <item itemvalue="Python.78.subsets" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +339,7 @@
       <workItem from="1714036031894" duration="3175000" />
       <workItem from="1714097295749" duration="10603000" />
       <workItem from="1715436563137" duration="252000" />
-      <workItem from="1715436961444" duration="3947000" />
+      <workItem from="1715436961444" duration="5631000" />
     </task>
     <task id="LOCAL-00001" summary="docker 环境搭建模版">
       <created>1709302294107</created>
@@ -675,7 +677,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715440582931</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="python 动态规划">
+      <option name="closed" value="true" />
+      <created>1715441182755</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1715441182755</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,6 +771,8 @@
     <SUITE FILE_PATH="coverage/structure_and_algorithm$46_permute.coverage" NAME="46.permute Coverage Results" MODIFIED="1714039128265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcode/python_code/hot100" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$binary_tree_bfs.coverage" NAME="binary_tree_bfs Coverage Results" MODIFIED="1712050489866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/tree" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$hash_map.coverage" NAME="hash_map Coverage Results" MODIFIED="1712145777257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/hashing" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$02_climb_stairs_dfs_mem.coverage" NAME="02_climb_stairs_dfs_mem Coverage Results" MODIFIED="1715441030972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs" />
+    <SUITE FILE_PATH="coverage/structure_and_algorithm$04_climb_stairs_dp.coverage" NAME="04_climb_stairs_dp Coverage Results" MODIFIED="1715441809222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure_and_algorithm/dynamic_programming/climb_stairs" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$stack.coverage" NAME="stack Coverage Results" MODIFIED="1710491973753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/stack_and_queue" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$78_subsets.coverage" NAME="78.subsets Coverage Results" MODIFIED="1714112274872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcode/python_code/hot100" />
     <SUITE FILE_PATH="coverage/structure_and_algorithm$link_list.coverage" NAME="link_list Coverage Results" MODIFIED="1710229223787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_structure/array_and_linklist" />
