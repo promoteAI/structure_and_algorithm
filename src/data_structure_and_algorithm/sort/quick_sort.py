@@ -8,13 +8,12 @@
 # @Software :PyCharm
 
 from typing import List
-
-
+from random import randint
 def quick_sort(arr: List, l, r) -> List:
     """
     快速排序:
     """
-    if l >= r:
+    if l > r:
         return
     # 划分哨兵
     pivot = partition(arr, l, r)
